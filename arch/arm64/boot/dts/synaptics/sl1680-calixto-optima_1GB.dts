@@ -32,7 +32,7 @@
 #include "dolphin.dtsi"
 
 / {
-	model = "CALIXTO SL1680 OPTIMA 2GB EVB";
+	model = "CALIXTO SL1680 OPTIMA 1GB EVB";
 	compatible = "syna,dolphin-evk", "syna,dolphin";
 
 	aliases {
@@ -51,7 +51,7 @@
 
 	memory {
 		device_type = "memory";
-		reg = <0 0x01000000 0 0x7f000000>;
+		reg = <0 0x01000000 0 0x3f000000>;
 	};
 
 	reserved-memory {
